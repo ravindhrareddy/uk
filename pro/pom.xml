@@ -17,7 +17,11 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+<repository>
+      <id>deployment</id>
+      <name>Internal Releases</name>
+      <url>http://3.82.222.3:8081/repository/samplerelease/</url>
+    </repository>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
